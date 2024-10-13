@@ -1,0 +1,33 @@
+.blogCard {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  .blogCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .blogTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .blogContent {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .blogFooter {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #999;
+  }
+  
